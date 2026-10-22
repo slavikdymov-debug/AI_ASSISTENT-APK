@@ -1,11 +1,17 @@
-# Секреты — НИКОГДА не коммитить
+# Секреты
 .env
 *.env
+config.py
+config.local.py
 
-# Локальные данные (пока не перешли полностью на Neon)
-assistant_data.json
-*.db
-*.sqlite
+# Сборка Android
+bin/
+.buildozer/
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
 
 # Python
 __pycache__/
@@ -20,16 +26,12 @@ dist/
 venv/
 env/
 
-# PyCharm / IDE
+# IDE / OS / Логи
 .idea/
 .vscode/
 *.swp
-
-# OS
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Логи
 *.log
 logs/
