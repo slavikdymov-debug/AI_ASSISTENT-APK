@@ -1,0 +1,35 @@
+# Секреты — НИКОГДА не коммитить
+.env
+*.env
+
+# Локальные данные (пока не перешли полностью на Neon)
+assistant_data.json
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+logs/
