@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 """Модуль подключения к Neon для Android (только pg8000)."""
-import os, json, hashlib
+import json, hashlib
 import pg8000
 
-DATABASE_URL = os.getenv("DATABASE_URL", "")
+try:
+    import config
+    DATABASE_URL = config.DATABASE_URL
+except ImportError:
+    DATABASE_URL = ""
 
 def _parse_url(url):
     try:
