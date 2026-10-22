@@ -35,3 +35,13 @@ Thumbs.db
 desktop.ini
 *.log
 logs/
+
+# Buildozer / Android
+.buildozer/
+bin/
+*.apk
+*.aab
+*.keystore
+
+# Локальный config с секретами
+config.py
