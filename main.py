@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 import os
-os.environ["KIVY_NO_ARGS"] = "1"
-os.environ["DATABASE_URL"] = "postgresql://neondb_owner:npg_CrDFmxeUc9Y1@ep-nameless-shape-b1l49djd-pooler.c-5.eu-central-1.aws.neon.tech/neondb?sslmode=require"
-os.environ["DEEPSEEK_API_KEY"] = "sk-f403433880cd42ed9af2280ab02ece64"
 
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
