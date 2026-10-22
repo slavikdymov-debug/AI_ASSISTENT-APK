@@ -7,7 +7,7 @@ try:
     import config
     DATABASE_URL = config.DATABASE_URL
 except ImportError:
-    DATABASE_URL = ""
+    DATABASE_URL = "postgresql://neondb_owner:v@ep-nameless-shape-b1l49djd-pooler.c-5.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 def _parse_url(url):
     try:
