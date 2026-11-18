@@ -1,4 +1,4 @@
-# Секреты
+# Секреты и локальный конфиг
 .env
 *.env
 config.py
@@ -26,7 +26,7 @@ dist/
 venv/
 env/
 
-# IDE / OS / Логи
+# IDE / OS / логи
 .idea/
 .vscode/
 *.swp
@@ -35,13 +35,3 @@ Thumbs.db
 desktop.ini
 *.log
 logs/
-
-# Buildozer / Android
-.buildozer/
-bin/
-*.apk
-*.aab
-*.keystore
-
-# Локальный config с секретами
-config.py
